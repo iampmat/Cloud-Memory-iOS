@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD74DA3A1BA3AA7200A2D95D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD74DA391BA3AA7200A2D95D /* main.m */; };
+		AD74DA3D1BA3AA7200A2D95D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD74DA3C1BA3AA7200A2D95D /* AppDelegate.m */; };
+		AD74DA401BA3AA7200A2D95D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD74DA3F1BA3AA7200A2D95D /* ViewController.m */; };
+		AD74DA431BA3AA7300A2D95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD74DA411BA3AA7300A2D95D /* Main.storyboard */; };
+		AD74DA451BA3AA7300A2D95D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD74DA441BA3AA7300A2D95D /* Images.xcassets */; };
+		AD74DA481BA3AA7300A2D95D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD74DA461BA3AA7300A2D95D /* LaunchScreen.xib */; };
+		AD74DA541BA3AA7400A2D95D /* Cloud_Memory_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD74DA531BA3AA7400A2D95D /* Cloud_Memory_iOSTests.m */; };
+		AD74DA6D1BA3BB8F00A2D95D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD74DA6A1BA3BB8E00A2D95D /* FBSDKCoreKit.framework */; };
+		AD74DA6E1BA3BB8F00A2D95D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD74DA6B1BA3BB8E00A2D95D /* FBSDKLoginKit.framework */; };
+		AD74DA6F1BA3BB8F00A2D95D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD74DA6C1BA3BB8E00A2D95D /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD74DA4E1BA3AA7400A2D95D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD74DA2C1BA3AA7000A2D95D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD74DA331BA3AA7100A2D95D;
+			remoteInfo = "Cloud Memory iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD74DA341BA3AA7200A2D95D /* Cloud Memory iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Memory iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD74DA381BA3AA7200A2D95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD74DA391BA3AA7200A2D95D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD74DA3B1BA3AA7200A2D95D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD74DA3C1BA3AA7200A2D95D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD74DA3E1BA3AA7200A2D95D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD74DA3F1BA3AA7200A2D95D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD74DA421BA3AA7300A2D95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD74DA441BA3AA7300A2D95D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD74DA471BA3AA7300A2D95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AD74DA4D1BA3AA7400A2D95D /* Cloud Memory iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cloud Memory iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD74DA521BA3AA7400A2D95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD74DA531BA3AA7400A2D95D /* Cloud_Memory_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud_Memory_iOSTests.m; sourceTree = "<group>"; };
+		AD74DA6A1BA3BB8E00A2D95D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		AD74DA6B1BA3BB8E00A2D95D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		AD74DA6C1BA3BB8E00A2D95D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD74DA311BA3AA7100A2D95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74DA6E1BA3BB8F00A2D95D /* FBSDKLoginKit.framework in Frameworks */,
+				AD74DA6D1BA3BB8F00A2D95D /* FBSDKCoreKit.framework in Frameworks */,
+				AD74DA6F1BA3BB8F00A2D95D /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74DA4A1BA3AA7400A2D95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD74DA2B1BA3AA6F00A2D95D = {
+			isa = PBXGroup;
+			children = (
+				AD74DA5D1BA3AB5C00A2D95D /* Frameworks */,
+				AD74DA361BA3AA7200A2D95D /* Cloud Memory iOS */,
+				AD74DA501BA3AA7400A2D95D /* Cloud Memory iOSTests */,
+				AD74DA351BA3AA7200A2D95D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD74DA351BA3AA7200A2D95D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD74DA341BA3AA7200A2D95D /* Cloud Memory iOS.app */,
+				AD74DA4D1BA3AA7400A2D95D /* Cloud Memory iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD74DA361BA3AA7200A2D95D /* Cloud Memory iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD74DA3B1BA3AA7200A2D95D /* AppDelegate.h */,
+				AD74DA3C1BA3AA7200A2D95D /* AppDelegate.m */,
+				AD74DA3E1BA3AA7200A2D95D /* ViewController.h */,
+				AD74DA3F1BA3AA7200A2D95D /* ViewController.m */,
+				AD74DA411BA3AA7300A2D95D /* Main.storyboard */,
+				AD74DA441BA3AA7300A2D95D /* Images.xcassets */,
+				AD74DA461BA3AA7300A2D95D /* LaunchScreen.xib */,
+				AD74DA371BA3AA7200A2D95D /* Supporting Files */,
+			);
+			path = "Cloud Memory iOS";
+			sourceTree = "<group>";
+		};
+		AD74DA371BA3AA7200A2D95D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD74DA381BA3AA7200A2D95D /* Info.plist */,
+				AD74DA391BA3AA7200A2D95D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD74DA501BA3AA7400A2D95D /* Cloud Memory iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD74DA531BA3AA7400A2D95D /* Cloud_Memory_iOSTests.m */,
+				AD74DA511BA3AA7400A2D95D /* Supporting Files */,
+			);
+			path = "Cloud Memory iOSTests";
+			sourceTree = "<group>";
+		};
+		AD74DA511BA3AA7400A2D95D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD74DA521BA3AA7400A2D95D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD74DA5D1BA3AB5C00A2D95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD74DA6A1BA3BB8E00A2D95D /* FBSDKCoreKit.framework */,
+				AD74DA6B1BA3BB8E00A2D95D /* FBSDKLoginKit.framework */,
+				AD74DA6C1BA3BB8E00A2D95D /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD74DA331BA3AA7100A2D95D /* Cloud Memory iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD74DA571BA3AA7400A2D95D /* Build configuration list for PBXNativeTarget "Cloud Memory iOS" */;
+			buildPhases = (
+				AD74DA301BA3AA7100A2D95D /* Sources */,
+				AD74DA311BA3AA7100A2D95D /* Frameworks */,
+				AD74DA321BA3AA7100A2D95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cloud Memory iOS";
+			productName = "Cloud Memory iOS";
+			productReference = AD74DA341BA3AA7200A2D95D /* Cloud Memory iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD74DA4C1BA3AA7400A2D95D /* Cloud Memory iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD74DA5A1BA3AA7400A2D95D /* Build configuration list for PBXNativeTarget "Cloud Memory iOSTests" */;
+			buildPhases = (
+				AD74DA491BA3AA7400A2D95D /* Sources */,
+				AD74DA4A1BA3AA7400A2D95D /* Frameworks */,
+				AD74DA4B1BA3AA7400A2D95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD74DA4F1BA3AA7400A2D95D /* PBXTargetDependency */,
+			);
+			name = "Cloud Memory iOSTests";
+			productName = "Cloud Memory iOSTests";
+			productReference = AD74DA4D1BA3AA7400A2D95D /* Cloud Memory iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD74DA2C1BA3AA7000A2D95D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Patrick Matherly";
+				TargetAttributes = {
+					AD74DA331BA3AA7100A2D95D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AD74DA4C1BA3AA7400A2D95D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AD74DA331BA3AA7100A2D95D;
+					};
+				};
+			};
+			buildConfigurationList = AD74DA2F1BA3AA7000A2D95D /* Build configuration list for PBXProject "Cloud Memory iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD74DA2B1BA3AA6F00A2D95D;
+			productRefGroup = AD74DA351BA3AA7200A2D95D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD74DA331BA3AA7100A2D95D /* Cloud Memory iOS */,
+				AD74DA4C1BA3AA7400A2D95D /* Cloud Memory iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD74DA321BA3AA7100A2D95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74DA431BA3AA7300A2D95D /* Main.storyboard in Resources */,
+				AD74DA481BA3AA7300A2D95D /* LaunchScreen.xib in Resources */,
+				AD74DA451BA3AA7300A2D95D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74DA4B1BA3AA7400A2D95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD74DA301BA3AA7100A2D95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74DA401BA3AA7200A2D95D /* ViewController.m in Sources */,
+				AD74DA3D1BA3AA7200A2D95D /* AppDelegate.m in Sources */,
+				AD74DA3A1BA3AA7200A2D95D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74DA491BA3AA7400A2D95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74DA541BA3AA7400A2D95D /* Cloud_Memory_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD74DA4F1BA3AA7400A2D95D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD74DA331BA3AA7100A2D95D /* Cloud Memory iOS */;
+			targetProxy = AD74DA4E1BA3AA7400A2D95D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD74DA411BA3AA7300A2D95D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD74DA421BA3AA7300A2D95D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD74DA461BA3AA7300A2D95D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD74DA471BA3AA7300A2D95D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD74DA551BA3AA7400A2D95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD74DA561BA3AA7400A2D95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD74DA581BA3AA7400A2D95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/patrickmatherly1994/Downloads/FacebookSDKs-iOS-20150910",
+					2,
+					"/Users/patrickmatherly1994/Downloads/FacebookSDKs-iOS-20150910",
+					"/Users/patrickmatherly1994/Downloads/FacebookSDKs-iOS-20150813",
+				);
+				INFOPLIST_FILE = "Cloud Memory iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD74DA591BA3AA7400A2D95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/patrickmatherly1994/Downloads/FacebookSDKs-iOS-20150910",
+					2,
+					"/Users/patrickmatherly1994/Downloads/FacebookSDKs-iOS-20150910",
+					"/Users/patrickmatherly1994/Downloads/FacebookSDKs-iOS-20150813",
+				);
+				INFOPLIST_FILE = "Cloud Memory iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD74DA5B1BA3AA7400A2D95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cloud Memory iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud Memory iOS.app/Cloud Memory iOS";
+			};
+			name = Debug;
+		};
+		AD74DA5C1BA3AA7400A2D95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cloud Memory iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud Memory iOS.app/Cloud Memory iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD74DA2F1BA3AA7000A2D95D /* Build configuration list for PBXProject "Cloud Memory iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74DA551BA3AA7400A2D95D /* Debug */,
+				AD74DA561BA3AA7400A2D95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD74DA571BA3AA7400A2D95D /* Build configuration list for PBXNativeTarget "Cloud Memory iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74DA581BA3AA7400A2D95D /* Debug */,
+				AD74DA591BA3AA7400A2D95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD74DA5A1BA3AA7400A2D95D /* Build configuration list for PBXNativeTarget "Cloud Memory iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74DA5B1BA3AA7400A2D95D /* Debug */,
+				AD74DA5C1BA3AA7400A2D95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD74DA2C1BA3AA7000A2D95D /* Project object */;
+}
